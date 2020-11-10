@@ -1,0 +1,37 @@
+button{
+    color: white;
+    font-size: medium;
+    background-color: #029d04;
+    border: none;
+    border-radius: 8px;
+}
+table,th,td{
+    border: 1px solid gray;
+    text-align: center;
+}
+th{
+    color: white;
+    background-color: black;
+}
+.newsTabs{
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.newsTabs div{
+    cursor: pointer;
+}
+.newsTabs div:not(:first-of-type){
+    border-right: 1px solid gray;
+}
+.ulnews{
+    list-style-type: square;
+    color: #058801;
+    padding-right: 20px;
+}
+.ulnews li{
+    margin-bottom: 4px;
+}
+.ulnews li span{
+    color: black;
+}

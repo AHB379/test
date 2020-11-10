@@ -1,0 +1,39 @@
+.newsTabs{
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.newsTabs div{
+    cursor: pointer;
+}
+.newsTabs div:not(:first-of-type){
+    border-right: 1px solid gray;
+}
+.ulnews{
+    list-style-type: square;
+    color: #058801;
+    padding-right: 20px;
+}
+.ulnews li{
+    margin-bottom: 4px;
+}
+.ulnews li span{
+    color: black;
+}
+.pagenumbers{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #008A03;
+    display: inline-block;
+    width: 30px;
+    height: 31px;
+    border-radius: 5px;
+}
+.pagenumbers:hover{
+    color: white;
+}
+.pagenumbers:focus{
+    color: white;
+    background-color: #C20000;
+}

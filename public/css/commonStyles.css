@@ -1,0 +1,89 @@
+@font-face{
+    font-family: IRANSANS;
+    src: url('../media/IRAN Sans Regular (mmrostami.blog.ir).ttf');
+}
+body{
+    direction: rtl;
+    font-family: IRANSANS;
+}
+#backtoTop{
+    display: none;
+    position: fixed;
+    bottom: 20%;
+    right: 5%;
+    font-size: xx-large;
+    color: white;
+    background-color: #bebebe;
+    border: none;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    z-index: 99;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+a:focus{
+    color: black;
+    text-decoration: none;
+}
+.navbar-toggle{
+    margin-top: 10px;
+    background-color: #c20000;
+}
+.navbar-toggle.collapsed{
+    background: #C20000 !important;
+}
+.icon-bar{
+    background-color: white;
+}
+.collapse{
+    background-color: #C20000;
+}
+.navbar-nav.collapse li{
+    border-right: 1px solid #8e090a;
+    border-bottom: none !important;
+}
+.collapse li:hover{
+    background-color: #8e090a;
+}
+@media screen and (max-width: 768px){
+    .collapse li:first-child{ order: 5; }
+    .collapse li:nth-child(2){ order: 4; }
+    .collapse li:nth-child(3){ order: 3; }
+    .collapse li:nth-child(4){ order: 2; }
+    .collapse li:nth-child(5){ order: 1; }
+}
+header p{
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 3px solid #039D07;
+    padding-right: 10px;
+    margin: 0;
+}
+footer{
+    background-color: #000000;
+    margin-top: 20px;
+    padding: 0 8vw 9.375vw;
+}
+.footermenu{
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.linky .footermenu{
+    border-left: 1px solid #024800;
+}
+footer a:hover{
+    color: #D21C18;
+    text-decoration: none;
+}
+footer a:focus{
+    color: white;
+    text-decoration: none;
+}

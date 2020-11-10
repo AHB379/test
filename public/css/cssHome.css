@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px){
+    .captionSlide p:nth-child(2){
+        font-size: large;
+    }
+}
+@media screen and (min-width: 768px){
+    .captionSlide p:nth-child(2){
+        font-size: x-large;
+    }
+}
+@media screen and (max-width: 991px){
+    #bigSlideIndicators{
+        bottom: 40%;
+    }
+    .captionSlide{
+        height: 156px;
+    }
+}
+@media screen and (min-width: 992px){
+    #bigSlideIndicators{
+        right: 10%;
+    }
+}
+.dropdown-menu{
+    padding-right: 0;
+}
+.dropdown-menu li a{
+    background-color: black;
+    color: white;
+}
+#myCarousel{
+    background-color: #e7e7e7;
+}
+/*#playpauseButton{
+    font-size: x-small;
+    background-color: white;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border: solid white;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 12.5%;
+    right: 55.1%;
+    z-index: 99;
+}*/
+#bigSlideIndicators{
+    direction: ltr;
+}
+#bigSlideIndicators li{
+    background-color: white;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    text-indent: 0;
+    line-height: 17px;
+}
+#bigSlideIndicators li.active{
+    background-color: green;
+    border-color: green;
+}
+#underslide{
+    border: 1px solid #D7D7D7;
+}
+#newsmenu{
+    border-left: 1px solid #D7D7D7;
+    border-right: 1px solid #D7D7D7;
+    padding: 20px 0;
+}
+#minislide{
+    position: absolute;
+    bottom: 97%;
+    right: 55%;
+}
+#minislide li{
+    background-color: grey;
+}
+#minislide .active{
+    background-color: black;
+}
+#recentnews:hover{
+    cursor: pointer;
+}
+#topnews{
+    cursor: pointer;
+}
+.ulnews{
+    list-style-type: square;
+    color: #058801;
+    padding-right: 20px;
+}
+.ulnews li{
+    margin-bottom: 4px;
+}
+.ulnews li span{
+    color: black;
+}
+.labels{
+    background-color: #DADADA;
+    border: none;
+    border-radius: 7px;
+    padding: 3px 5.5px;
+}
+.labels:hover{
+    color: white;
+    background-color: #029d04;
+}
+#maxchallenge{
+    cursor: pointer;
+}
+#maxvisit{
+    cursor: pointer;
+}

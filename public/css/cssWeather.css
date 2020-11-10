@@ -1,0 +1,136 @@
+.weather_city_ajax div.row{
+    margin-top: 10px;
+}
+.weather_city_title{
+    margin: 0 0 2px 2px;
+}
+.weather_city_title a{
+    font-size: medium;
+    text-align: center;
+    background-color: #EEEEEE;
+    display: inline-block;
+    width: 100%;
+}
+.weather_city_title a:hover{
+    color: white;
+    background-color: #c30000;
+}
+@media screen and (max-width: 479px){
+    .weather_city_title{
+        padding-right: 10px;
+    }
+}
+.weather_container{
+    border: 1px solid black;
+    padding: 4px;
+}
+.weather_header{
+    font: medium bolder;
+    padding: 4px 8px 8px;
+}
+.weather_current_city{
+    color: red;
+}
+label{
+    font-size: large;
+    margin-right: 15px;
+}
+.weather_r_sec{
+    border: 1px solid black;
+    padding: 4px;
+    font-size: small;
+    line-height: 25px;
+    width: 50%;
+    height: 279px;
+}
+.weather_l_sec{
+    background: url('http://www.mednews.ir/client/themes/fa/main/img/weather/b/32.png') no-repeat center top !important;
+    width: 50%;
+    padding-right: 4px;
+}
+.weather_t_l_sec{
+    margin-bottom: 20px;
+}
+.weather_tmp{
+    font: bold 17px Tahoma;
+    padding: 3px;
+}
+.weather_info{
+    font-size: smaller;
+    padding-top: 80px;
+}
+.weather_b_l_sec{
+    border: 1px solid black;
+    padding: 1px;
+}
+.weather_title{
+    font: 16px bold;
+    background-color: #212121;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.weather_info2{
+    padding: 3px;
+}
+.weather_list{
+    padding-top: 3px;
+}
+.weather_dd{
+    padding: 0 10px;
+}
+/*#weatherInfo2{
+    background: url('/media/weather.png') no-repeat center;
+    background-size: 80%;
+    height: 125px;
+    margin-bottom: 10px;
+}
+#weatherInfo2 p{
+    position: absolute;
+    bottom: 47%;
+    font-size: small;
+}
+@media screen and (max-width: 479px){
+    #weatherInfo2{
+        background-size: 40%;
+    }
+}
+#weatherInfo3{
+    border: 1px solid black;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+#weatherInfo3 div:first-child .row div:nth-child(2){
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+@media screen and (max-width: 479px) {
+    #weatherInfo1{
+        height: auto;
+    }
+}*/
+.newsTabs{
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.newsTabs div{
+    cursor: pointer;
+}
+.newsTabs div:not(:first-of-type){
+    border-right: 1px solid gray;
+}
+.ulnews{
+    list-style-type: square;
+    color: #058801;
+    padding-right: 20px;
+}
+.ulnews li{
+    margin-bottom: 4px;
+}
+.ulnews li span{
+    color: black;
+}
